@@ -6,11 +6,11 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
-  return <nav className="mb-5 flex items-center justify-between">
+  return <nav className="mb-5 flex items-center justify-between lg:mt-2">
     <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-14" src={logo} alt="logo" />
+        <img className="w-14" src={logo} alt="logo" />
     </div>
-    <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+    <div className="my-4 flex items-center justify-center gap-4 text-2xl lg:mx-8">
         <FaLinkedin />
         <FaGithub />
         <FaSquareXTwitter />
