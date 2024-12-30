@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-8 text-7xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Rom Charit
             </motion.h1>
@@ -29,7 +29,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent lg:text-4xl"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-5 lg:mb-0 lg:text-4xl"
             >
               Junior Frontend Developer
             </motion.span>
@@ -37,7 +37,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 text-sm max-w-xl pt-2 pb-16 font-light tracking-tighter lg:text-xl"
+              className="mb-2 text-s max-w-xl pt-2 pb-16 font-light tracking-tighter lg:text-xl"
             >
               {HERO_CONTENT}
             </motion.p>

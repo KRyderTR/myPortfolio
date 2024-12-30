@@ -1,5 +1,4 @@
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
 import simonImg from "../assets/symon-game-image.jpg";
 
 export const HERO_CONTENT = `I am an enthusiastic and dedicated Frontend Developer with a strong academic background in computer science and programming. Known for my diligence, hard work, and passion for crafting exceptional user experiences, I am eager to contribute my skills in a dynamic and collaborative environment.`;
@@ -18,17 +17,18 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project2,
+    link: "https://krydertr.github.io/myPortfolio/",
     description:
       "A personal portfolio showcasing my skills, projects, and contact information, with a responsive design and smooth animations powered by Framer Motion for an engaging user experience across all devices.",
     technologies: ["React.js", "JavaScript", "Tailwind", "FramerMotion"],
   },
-  {
-    title: "Task App",
-    image: project3,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["React.js", "TypeScript", "Tailwind", "Firebase"],
-  },
+  // {
+  //   title: "Task App",
+  //   image: project3,
+  //   description:
+  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+  //   technologies: ["React.js", "TypeScript", "Tailwind", "Firebase"],
+  // },
 ];
 
 export const CONTACT = {

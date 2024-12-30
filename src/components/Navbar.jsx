@@ -1,7 +1,7 @@
 import logo from "../assets/RC-logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-// import { FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -20,9 +20,9 @@ const Navbar = () => {
         <a href="https://github.com/KRyderTR" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        {/* <a href="https://www.instagram.com/rom.charit" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/rom.charit" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
-        </a> */}
+        </a>
       </div>
     </nav>
   );
